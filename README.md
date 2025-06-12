@@ -1,52 +1,148 @@
-<!DOCTYPE html>  <html lang="fr">  
-<head>  
-  <meta charset="UTF-8">  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-  <title>الكهرباء الصناعية | Électricité Industrielle</title>  
-  <style>  
-    body { font-family: sans-serif; background: #f5f5f5; margin: 0; padding: 0; }  
-    header, footer { background: #1a1a1a; color: white; padding: 1em; text-align: center; }  
-    nav a { margin: 0 10px; color: white; text-decoration: none; }  
-    .hero { padding: 2em; text-align: center; background: #007bff; color: white; }  
-    .section { padding: 2em; background: white; margin: 1em; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }  
-    .lang-switch { text-align: right; padding: 1em; margin-right: 2em; }  
-  </style>  
-</head>  
-<body>  
-  <header>  
-    <h1>خدمات الكهرباء الصناعية | Services en Électricité Industrielle</h1>  
-    <nav>  
-      <a href="#about">عنّا | À propos</a>  
-      <a href="#services">خدماتنا | Nos Services</a>  
-      <a href="#contact">اتصل بنا | Contact</a>  
-    </nav>  
-  </header>    <div class="hero">  
-    <h2>حلول احترافية للكهرباء الصناعية</h2>  
-    <p>Solutions professionnelles en électricité industrielle</p>  
-  </div>    <section id="about" class="section">  
-    <h2>من نحن | Qui sommes-nous ?</h2>  
-    <p>  
-      نحن شركة متخصصة في خدمات الكهرباء الصناعية، نعمل على تصميم، تركيب، وصيانة الأنظمة الكهربائية للمصانع والمقاولات.  
-      <br>  
-      Nous sommes une entreprise spécialisée dans l'électricité industrielle, offrant des services de conception, d'installation et de maintenance pour les systèmes électriques industriels.  
-    </p>  
-  </section>    <section id="services" class="section">  
-    <h2>خدماتنا | Nos Services</h2>  
-    <ul>  
-      <li>تركيب اللوحات الكهربائية الصناعية | Installation de tableaux électriques</li>  
-      <li>صيانة نظم التحكم الآلي | Maintenance des systèmes automatisés</li>  
-      <li>الكابلات الصناعية والطاقة العالية | Câblage industriel et haute tension</li>  
-      <li>أجهزة القياس والتحكم | Instruments de mesure et de contrôle</li>  
-    </ul>  
-  </section>    <section id="contact" class="section">  
-    <h2>اتصل بنا | Contact</h2>  
-    <p>  
-      📞 الهاتف: 06XXXXXXXX<br>  
-      📧 البريد الإلكتروني: contact@votresite.com<br>  
-      🌐 العنوان: المدينة، المغرب  
-    </p>  
-  </section>    <footer>  
-    <p>© 2025 خدمات الكهرباء الصناعية | Électricité Industrielle</p>  
-  </footer>  
-</body>  
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>الكهرباء الصناعية | Électricité Industrielle</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+    }
+
+    header, footer {
+      background: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+
+    header img.logo {
+      max-width: 120px;
+      display: block;
+      margin: 0 auto 10px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 0.5em;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: #007bff;
+      color: white;
+      padding: 2em;
+      text-align: center;
+    }
+
+    .section {
+      background: white;
+      margin: 1em auto;
+      padding: 2em;
+      border-radius: 8px;
+      max-width: 800px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 0.5em;
+      margin-bottom: 1em;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 0.5em 0;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px dotted #ccc;
+      padding-bottom: 0.5em;
+    }
+
+    address {
+      font-style: normal;
+      line-height: 1.8;
+    }
+
+    .footer-note {
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      ul li {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="file-YApMiwfwQgjHLJdduWMN96" alt="LMHS CONNECT Logo" class="logo" />
+    <h1>خدمات الكهرباء الصناعية | Services en Électricité Industrielle</h1>
+    <nav>
+      <a href="#about">عنّا | À propos</a>
+      <a href="#services">خدماتنا | Nos Services</a>
+      <a href="#contact">اتصل بنا | Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>حلول احترافية للكهرباء الصناعية</h2>
+    <p>Solutions professionnelles en électricité industrielle</p>
+  </div>
+
+  <section id="about" class="section">
+    <h2>من نحن | Qui sommes-nous ?</h2>
+    <p>
+      <span lang="ar" dir="rtl">
+        نحن شركة متخصصة في خدمات الكهرباء الصناعية، نعمل على تصميم، تركيب، وصيانة الأنظمة الكهربائية للمصانع والمقاولات.
+      </span><br>
+      <span lang="fr" dir="ltr">
+        Nous sommes une entreprise spécialisée dans l'électricité industrielle, offrant des services de conception, d'installation et de maintenance.
+      </span>
+    </p>
+  </section>
+
+  <section id="services" class="section">
+    <h2>خدماتنا | Nos Services</h2>
+    <ul>
+      <li><span lang="ar">تركيب اللوحات الكهربائية</span><span lang="fr" dir="ltr">Installation de tableaux électriques</span></li>
+      <li><span lang="ar">صيانة نظم التحكم الآلي</span><span lang="fr" dir="ltr">Maintenance des systèmes automatisés</span></li>
+      <li><span lang="ar">الكابلات الصناعية والطاقة العالية</span><span lang="fr" dir="ltr">Câblage industriel et haute tension</span></li>
+      <li><span lang="ar">أجهزة القياس والتحكم</span><span lang="fr" dir="ltr">Instruments de mesure et de contrôle</span></li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>اتصل بنا | Contact</h2>
+    <address>
+      <p><strong>📞 الهاتف:</strong> 0665986955</p>
+      <p><strong>📧 البريد الإلكتروني:</strong> <a href="mailto:lmhs.connect@gmail.com">lmhs.connect@gmail.com</a></p>
+      <p><strong>🌐 العنوان:</strong> lot ALMASSIRA fb 29 3éme étage APPT 19 MOHAMMEDIA</p>
+    </address>
+  </section>
+
+  <footer>
+    <p class="footer-note">© 2025 خدمات الكهرباء الصناعية | Électricité Industrielle</p>
+  </footer>
+
+</body>
 </html>
